@@ -2,6 +2,8 @@ html {
     background-color: #fff;
     font-size: 16px;
     font-family: sans-serif;
+    margin : 0;
+    padding: 0;
 }
 
 body {
@@ -85,11 +87,11 @@ body {
     flex-direction: column;
     margin-left: 24px;
     margin-right: 24px;
-    max-width: 390px;
+    max-width: 430px;
 }
 
 .masthead-title {
-    font-size: 3rem;
+    font-size: 3.3rem;
 }
 
 .masthead button {
@@ -100,5 +102,264 @@ body {
     color: white;
     border: none;
     font-size: 16px;
+}
+
+/* Information Section */
+
+.practice {
+    display: inline-flex;
+    width: 100%;
+    max-height: 700px;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+}
+
+.practice-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    height: 100%;
+}
+
+.practice-image {
+    margin: 32px 24px;
+    max-width: 100%;
+}
+
+.practice-title {
+    font-size: 2.1rem;
     margin-bottom: 24px;
+}
+
+.practice-text {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    width: 92%;
+    font-weight: 300;
+}
+
+.practice-info {
+    align-items: center;
+    margin: -21px 24px;
+}
+
+.practice-author {
+    margin-bottom: 32px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:rgb(65, 65, 65)
+}
+
+/* Information - Cards Section */
+
+.information {
+    width: 40%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.info-card {
+    width: 100%;
+    padding: 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top-card {
+    margin-top: 16px;
+}
+
+#greyed-card {
+    background-color: rgb(226, 226, 226);
+}
+
+.info-image {
+    max-width: 35%;
+    height: auto;
+    margin-left: 16px;
+}
+
+.info-des {
+    width: 65%;
+    margin: 0 25px;
+    line-height: 1.5;
+}
+
+.info-des h4 {
+    margin-bottom: -15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.info-date {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 18px;
+}
+
+.read-more {
+    color: rgb(104, 148, 231);
+    font-size: 14px;
+}
+
+/* Learning Section */
+
+.learning {
+    background-color: rgb(233, 233, 233);
+    padding: 32px 56px;
+    display: flex;
+}
+
+.learn-container {
+    flex-flow: wrap row;
+    display: block;
+}
+
+.learn-title {
+    margin-bottom: 32px;
+    font-size: 2.1rem;
+    color:rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+}
+
+.learn-card {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 16px 32px 16px;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.learn-image {
+    height: auto;
+    margin: 0;
+    background-size: cover;
+}
+
+.text-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+    padding: 16px 28px 24px;
+    height: 144px;
+    flex-wrap: nowrap;
+}
+
+.card-title {
+    margin-top: 16px;
+    font-size : 1.3rem;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.courses, .learn-des {
+    font-weight: 200;
+    color:rgb(85, 84, 84);
+    font-size: 1rem;
+}
+
+.courses {
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+.learn-des {
+    line-height: 1.4;
+}
+
+/* Thesis Section */
+
+.thesis {
+    margin: 64px auto;
+}
+
+.thesis-container {
+    display: flex;
+    width: 100%;
+}
+
+.thesis-title {
+    margin-bottom: 32px;
+    font-size: 2.1rem;
+    color:rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+}
+
+.urban-container {
+    margin: auto 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.video {
+    width: 100%;
+}
+
+#video-title {
+    margin-top: 24px;
+    font-size : 1.4rem;
+    font-weight: 500;
+}
+
+.thesis-heading {
+    font-size : 1.4rem;
+    font-weight: 500;
+    margin: 0;
+    width: 95%;
+}
+
+.video-des {
+    width: 100%;
+    line-height: 1.5;
+    margin-top: -15px;
+    margin-bottom: 32px;
+    font-weight: 200;
+}
+
+.showcase-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-card {
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showcase-info {
+    display: flex;
+    flex-direction: column;
+    margin: auto 16px;
+}
+
+.showcase-p {
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.showcase-image {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+}
+
+#now-then {
+    background-color: white;
 }

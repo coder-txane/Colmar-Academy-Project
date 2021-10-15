@@ -139,29 +139,34 @@
         <h2 class="thesis-title">Thesis Exhibit</h2>
         <div class="thesis-container">
             <div class="urban-container">
-                <video src="Resources/videos/thesis.mp4" muted autoplay>Video Not Supported</video>
-                    <h4 class="thesis-headings">Reimagine urban</h4>
+                <video class="video" src="Resources/videos/thesis.mp4" muted autoplay loop>Video Not Supported</video>
+                    <h4 id="video-title">Reimagine urban</h4>
                         <p class="video-des">"Sunt blanditiis atque tenetur est libero aspernatur temporibus voluptas! Nihil dolore voluptatibus officiis quisquam perspiciatis ratione perferendis nobis."</p>
             </div>
 
             <div class="showcase-container">
-                <div class="fisma">
-                    <img src="Resources/images/thesis-fisma.jpg">
-                        <h4 class="thesis-headings">Fisma: Design and Prototype</h4>
-                            <p>Designer showcase of new prototype product</p>
+                <div class="showcase-card" id="fisma">
+                    <img class="showcase-image" src="Resources/images/thesis-fisma.jpg">
+                        <div class="showcase-info">
+                            <h4 class="thesis-heading">Fisma: Design and Prototype</h4>
+                                <p class="showcase-p">Designer showcase of new prototype product</p>
+                        </div>
                 </div>
 
-                <div class="now-then-container">
-                    <div class="now-then">
-                        <img src="Resources/images/thesis-now-and-then.jpg">
-                            <h4 class="thesis-headings">Now and then</h4>
-                                <p>Research study about New York</p>
+            <div class="now-then-container">
+                <div class="showcase-card" id="now-then">
+                    <img class="showcase-image" src="Resources/images/thesis-now-and-then.jpg">
+                        <div class="showcase-info">
+                            <h4 class="thesis-heading">Now and then</h4>
+                                <p class="showcase-p">Research study about New York</p>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
 
     </div>
+
+    <!-- Footer Section -->
 </body>
 </html>
