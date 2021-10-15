@@ -283,6 +283,7 @@ body {
 
 .thesis {
     margin: 64px auto;
+    margin-bottom: 0;
 }
 
 .thesis-container {
