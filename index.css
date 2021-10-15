@@ -285,11 +285,81 @@ body {
     margin: 64px auto;
 }
 
+.thesis-container {
+    display: flex;
+    width: 100%;
+}
+
 .thesis-title {
-    margin: 32px auto;
+    margin-bottom: 32px;
     font-size: 2.1rem;
     color:rgb(65, 65, 65);
     display: flex;
     justify-content: center;
 }
 
+.urban-container {
+    margin: auto 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.video {
+    width: 100%;
+}
+
+#video-title {
+    margin-top: 24px;
+    font-size : 1.4rem;
+    font-weight: 500;
+}
+
+.thesis-heading {
+    font-size : 1.4rem;
+    font-weight: 500;
+    margin: 0;
+    width: 95%;
+}
+
+.video-des {
+    width: 100%;
+    line-height: 1.5;
+    margin-top: -15px;
+    margin-bottom: 32px;
+    font-weight: 200;
+}
+
+.showcase-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-card {
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showcase-info {
+    display: flex;
+    flex-direction: column;
+    margin: auto 16px;
+}
+
+.showcase-p {
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.showcase-image {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+}
+
+#now-then {
+    background-color: white;
+}
