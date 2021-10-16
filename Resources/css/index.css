@@ -282,11 +282,8 @@ body {
 /* Thesis Section */
 
 .thesis {
-    margin: 64px auto;
-<<<<<<< HEAD
+    margin-top: 64px;
     margin-bottom: 0;
-=======
->>>>>>> 8de94cda1d96448d26e39f3b2b89629333260229
 }
 
 .thesis-container {
@@ -366,7 +363,6 @@ body {
 
 #now-then {
     background-color: white;
-<<<<<<< HEAD
 }
 
 /* Footer Section */
@@ -393,6 +389,3 @@ footer {
     display: flex;
     margin-right: 24px;
 } 
-=======
-}
->>>>>>> 8de94cda1d96448d26e39f3b2b89629333260229
