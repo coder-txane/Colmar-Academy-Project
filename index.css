@@ -282,8 +282,8 @@ body {
 /* Thesis Section */
 
 .thesis {
-    margin: 64px auto;
-    margin-bottom: 0;
+    margin-top: 64px;
+    margin-bottom: 15px;
 }
 
 .thesis-container {
