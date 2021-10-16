@@ -366,26 +366,3 @@ body {
 }
 
 /* Footer Section */
-
-footer {
-    border-top:rgb(226, 226, 226) .5px solid;
-    height: 90px;
-    font-size: 0.8rem;
-}
-
-.footer-info {
-    display: flex;
-    align-items: first baseline;
-    margin-left: -16px;
-}
-
-#copyright {
-    display: flex;
-    justify-content: flex-start;
-    margin-right: auto;
-}
-
-.footer-item {
-    display: flex;
-    margin-right: 24px; 
-}
