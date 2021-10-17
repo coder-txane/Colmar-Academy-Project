@@ -283,7 +283,7 @@ body {
 
 .thesis {
     margin-top: 64px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
 .thesis-container {
@@ -366,12 +366,10 @@ body {
 }
 
 /* Footer Section */
-
 footer {
     border-top:rgb(226, 226, 226) .5px solid;
     height: 90px;
     font-size: 0.8rem;
-    margin-top: 0;
 }
 
 .footer-info {
@@ -388,5 +386,7 @@ footer {
 
 .footer-item {
     display: flex;
-    margin-right: 24px;
-} 
+    margin-right: 24px; 
+}
+
+/* End */
