@@ -371,6 +371,7 @@ footer {
     border-top:rgb(226, 226, 226) .5px solid;
     height: 90px;
     font-size: 0.8rem;
+    margin-top: 0;
 }
 
 .footer-info {
