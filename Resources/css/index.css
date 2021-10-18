@@ -104,6 +104,25 @@ body {
     font-size: 16px;
 }
 
+/* For Tablets*/
+
+@media only screen and (max-width: 1072px) {
+
+    .masthead button {
+        margin-bottom: 32px;
+    }
+
+    .masthead-title {
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and (max-width: 814px) {
+    .masthead-title {
+        font-size: 2.1rem;
+    }
+}
+
 /* Information Section */
 
 .practice {
@@ -148,6 +167,25 @@ body {
     font-size: 0.9rem;
     font-weight: 600;
     color:rgb(65, 65, 65)
+}
+
+@media only screen and (max-width: 814px) {
+    /* For Tablets */
+    .practice {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-height: 1100px;
+        margin-bottom: 32px;
+        padding-bottom: 32px;
+    }
+
+    .practice-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+    }
 }
 
 /* Information - Cards Section */
@@ -212,6 +250,64 @@ body {
     font-size: 14px;
 }
 
+@media only screen and (max-width: 814px) {
+    .information {
+        width: 100%;
+        position: relative;
+        bottom: 90px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 82px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+
+    .info-card {
+        width: 100%;
+        padding: 16px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-image {
+        max-width: 60%;
+        height: auto;
+        margin: auto;
+    }
+
+    .info-des {
+        width: 65%;
+    }
+
+    .info-des h4 {
+        margin-bottom: -5px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.2;
+        width: 140px;
+    }
+
+    #top-card {
+        margin: 0;
+    }
+    
+    #greyed-card {
+        background-color: rgb(226, 226, 226);
+    }
+
+    .read-more {
+        font-size: 16px;
+    }
+}
+
 /* Learning Section */
 
 .learning {
@@ -242,7 +338,7 @@ body {
 .learn-card {
     display: inline-flex;
     flex-direction: column;
-    margin: 0 16px 32px;
+    margin: 0 auto 32px;
     width: 30%;
     justify-content: space-around;
 }
@@ -264,7 +360,7 @@ body {
 }
 
 .card-title {
-    margin-top: 16px;
+    margin-top: 14px;
     font-size : 1.3rem;
     margin-bottom: 16px;
     line-height: 1.2;
@@ -278,15 +374,52 @@ body {
 
 .courses {
     margin-bottom: 0px;
-    margin-top: 6px;
+    margin-top: 5px;
 }
 
 .learn-des {
     line-height: 1.4;
 }
 
-@media only screen and (max-resolution: 1161px) {
+@media only screen and (max-width: 1072px) {
+    /* For Tablets*/
+
+    .learning {
+        padding: 32px 56px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
+    .learn-container {
+        flex-wrap: wrap;
+        display: flex;
+        margin: 0;
+    }
+    
+    .learn-title {
+        margin-bottom: 32px;
+        font-size: 2.1rem;
+        color:rgb(65, 65, 65);
+    }
+    
+    .learn-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .learn-card {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 32px;
+        width: 40%;
+        justify-content: space-around;
+    }
+
+    .text-container {
+        padding: 16px 28px 24px;
+        min-height: 164px;
+    }
 }
 
 /* Thesis Section */
@@ -373,6 +506,28 @@ body {
 
 #now-then {
     background-color: white;
+}
+
+@media only screen and (max-width: 814px) {
+    
+    .thesis {
+        margin-bottom: 0px;
+    }
+
+    .showcase-info {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 50%;
+    }
+    
+    .thesis-heading {
+        font-size: 1.2rem;
+    }
+
+    .showcase-p {
+        font-size: 0.8rem;
+    }
 }
 
 /* Footer Section */
