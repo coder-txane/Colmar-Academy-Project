@@ -218,25 +218,31 @@ body {
     background-color: rgb(233, 233, 233);
     padding: 32px 56px;
     display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .learn-container {
-    flex-flow: wrap row;
-    display: block;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 
 .learn-title {
     margin-bottom: 32px;
     font-size: 2.1rem;
     color:rgb(65, 65, 65);
+}
+
+.learn-wrapper {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .learn-card {
     display: inline-flex;
     flex-direction: column;
-    margin: 0 16px 32px 16px;
+    margin: 0 16px 32px;
     width: 30%;
     justify-content: space-around;
 }
@@ -277,6 +283,10 @@ body {
 
 .learn-des {
     line-height: 1.4;
+}
+
+@media only screen and (max-resolution: 1161px) {
+    
 }
 
 /* Thesis Section */
