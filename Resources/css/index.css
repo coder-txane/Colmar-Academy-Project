@@ -508,6 +508,17 @@ body {
     background-color: white;
 }
 
+@media only screen and (max-width: 917px) {
+    .thesis-heading {
+        font-size: 1.2rem;
+        margin-top: auto;
+    }
+
+    .showcase-p {
+        font-size: 0.8rem;
+    }
+}
+
 @media only screen and (max-width: 814px) {
     
     .thesis {
@@ -523,10 +534,11 @@ body {
     
     .thesis-heading {
         font-size: 1.2rem;
+        margin-top: auto;
     }
 
     .showcase-p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
